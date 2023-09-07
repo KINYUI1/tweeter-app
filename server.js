@@ -27,7 +27,7 @@ app.engine('jsx', jsxEngine())
  * Roots
  */
 app.get('/',(req,res)=>{
-    res.send('Working')
+    res.redirect('/tweets')
 })
 /**
  * index 
